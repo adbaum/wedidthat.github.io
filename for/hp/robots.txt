@@ -1,2 +1,0 @@
-User-agent: *
-Sitemap: http://coconft.com/sitemap.xml
