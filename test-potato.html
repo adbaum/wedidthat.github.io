@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>We Did That Design</title>
+	<script src="scripts.js"></script>
+	<link rel="shortcut icon" href="assets/favicon.png">
+	<meta name="description" content="A one-man design consultancy with occassional guest stars. We handle everything from branding to site design to UX research to workshop facilitation.">
+	<meta name="keywords" content="adam, baumgartner, we did that, we, did, that, design, consultancy, freelance, designer">
+	<meta name="author" content="Adam Baumgartner">
+	<meta property="og:image" content="assets/lips.png">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+	<link href="stylesheet.css" rel="stylesheet" type="text/css">
+	<!--<link href="/fonts/stylesheet.css" rel="stylesheet" type="text/css">-->
+	<link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Archivo:400,500" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<body>
+
+
+<style>
+	.potato {
+		position: relative;
+	}
+
+	.potato-bg {
+		width: 100%;
+	}
+
+	.potato-bg img{
+		width:  100%;
+	}
+
+	.face {
+		position: absolute;
+		width: 100%;
+		top:  100%;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	#slides2 {
+		display: block;
+		width: 100%;
+		height: 20px;
+		position: absolute;
+		top: -190px;
+		left: -140px;
+	}
+
+	#slides {
+		display: block;
+		width: 100%;
+		height: 20px;
+		position: absolute;
+		top: -30px;
+		left: 0px;
+	}
+
+	#slides3 {
+		display: block;
+		width: 100%;
+		height: 100px;
+		position: absolute;
+		top: 60px;
+		left: 5px;
+	}
+</style>
+
+
+<div class="potato">
+	<div class="potato-bg">
+		<img src="https://d2kq0urxkarztv.cloudfront.net/61bb4409cdbd22002b775d1b/3530646/upload-30b9ab5b-aa86-4f58-b29a-c11ad014e73e.jpg?e=webp" alt="potato">
+	</div>
+	<div class="face">
+		<ul id="slides2">
+			<li class="slide2 showing"><img style="width:25%; transform: rotate(15deg); top: -50px;left: 325px" alt="party hat" src="https://d2kq0urxkarztv.cloudfront.net/61bb4409cdbd22002b775d1b/3530646/upload-362486fa-f97c-4a7d-8c6e-725d6d0a1efd.png?w=243&e=webp&nll=true>"></li>
+			<li class="slide2"><img style="width:60%;transform: rotate(-7deg)" alt="80s hair" src="https://d2kq0urxkarztv.cloudfront.net/61bb4409cdbd22002b775d1b/3530646/upload-ba88e9cb-d1af-4386-9579-37938c3c8d40.png?w=682&e=webp&nll=true&cX=0&cY=42&cW=825&cH=602"></li>
+			<li class="slide2"><img style="width:55%;transform: rotate(-7deg)" alt="sun hat" src="https://d2kq0urxkarztv.cloudfront.net/61bb4409cdbd22002b775d1b/3530646/upload-d5785ace-5f3d-47eb-89b9-e7af10d43bbc.png?w=540&e=webp&nll=true&cX=0&cY=175&cW=1000&cH=638"></li>
+		</ul>
+		<ul id="slides">
+			<li class="slide showing"><img style="width:35%; transform: rotate(-7deg); top: -45px;left:135px;" alt="googly eyes" src="https://d2kq0urxkarztv.cloudfront.net/61bb4409cdbd22002b775d1b/3530646/upload-692b9f2a-1dc4-4c16-b5f2-627ba4fbc433.png?w=334&e=webp&nll=true"></li>
+			<li class="slide"><img style="width:40%;" alt="retro sunglasses" src="https://d2kq0urxkarztv.cloudfront.net/61bb4409cdbd22002b775d1b/3530646/upload-53d35ec8-b1a3-4369-88eb-de056bab8812.png?w=510&e=webp&nll=true&cX=86&cY=186&cW=837&cH=379"></li>
+			<li class="slide"><img style="width:40%;" alt="cutout eyes from magazine" src="https://d2kq0urxkarztv.cloudfront.net/61bb4409cdbd22002b775d1b/3530646/upload-6bd0418a-d6f0-4187-804f-a9bba6615396.png?w=412&e=webp&nll=true&cX=0&cY=196&cW=740&cH=345"></li>
+		</ul>
+		<ul id="slides3">
+			<li class="slide3 showing"><img style="width:40%; top: 0px; left: 230px" alt="mouth eating pizza" src="https://d2kq0urxkarztv.cloudfront.net/61bb4409cdbd22002b775d1b/3530646/upload-0579818c-5d46-4698-92a6-782f2b37aa15.png?w=429&e=webp&nll=true&cX=0&cY=90&cW=740&cH=565"></li>
+			<li class="slide3"><img style="width:57%;" alt="face mask" src="https://d2kq0urxkarztv.cloudfront.net/61bb4409cdbd22002b775d1b/3530646/upload-55487c2c-c6b4-4105-9650-865689886d70.png?w=641&e=webp&nll=true"></li>
+			<li class="slide3"><img style="width:30%; top:  -10px;left: 215px;" alt="sexy vampire mouth" src="https://d2kq0urxkarztv.cloudfront.net/61bb4409cdbd22002b775d1b/3530646/upload-95620fd7-50df-4576-9fe9-91e4f61089a7.png?w=327&e=webp&nll=true&cX=19.372093023255786&cY=0&cW=647.2558139534884&cH=497"></li>
+		</ul>
+	</div>
+</div>
+
+
+
+<script>
+	var slides = document.querySelectorAll('#slides .slide');
+var currentSlide = 0;
+var slideInterval = setInterval(nextSlide,500);
+
+function nextSlide(){
+	slides[currentSlide].className = 'slide';
+	currentSlide = (currentSlide+1)%slides.length;
+	slides[currentSlide].className = 'slide showing';
+}
+
+var playing = true;
+var pauseButton = document.getElementById('slides');
+
+function pauseSlideshow(){
+	playing = false;
+	clearInterval(slideInterval);
+}
+
+function playSlideshow(){
+	playing = true;
+	slideInterval = setInterval(nextSlide,500);
+}
+
+pauseButton.onclick = function(){
+	if(playing){ pauseSlideshow(); }
+	else{ playSlideshow(); }
+};</script>
+
+
+<script>
+	var slides2 = document.querySelectorAll('#slides2 .slide2');
+var currentSlide2 = 0;
+var slideInterval2 = setInterval(nextSlide2,500);
+
+function nextSlide2(){
+	slides2[currentSlide2].className = 'slide2';
+	currentSlide2 = (currentSlide2+1)%slides.length;
+	slides2[currentSlide2].className = 'slide2 showing';
+}
+
+var playing2 = true;
+var pauseButton2 = document.getElementById('slides2');
+
+function pauseSlideshow2(){
+	playing2 = false;
+	clearInterval(slideInterval2);
+}
+
+function playSlideshow2(){
+	playing2 = true;
+	slideInterval2 = setInterval(nextSlide2,500);
+}
+
+pauseButton2.onclick = function(){
+	if(playing2){ pauseSlideshow2(); }
+	else{ playSlideshow2(); }
+};</script>
+
+<script>
+	var slides3 = document.querySelectorAll('#slides3 .slide3');
+var currentSlide3 = 0;
+var slideInterval3 = setInterval(nextSlide3,500);
+
+function nextSlide3(){
+	slides3[currentSlide3].className = 'slide3';
+	currentSlide3 = (currentSlide3+1)%slides.length;
+	slides3[currentSlide3].className = 'slide3 showing';
+}
+
+var playing3 = true;
+var pauseButton3 = document.getElementById('slides3');
+
+function pauseSlideshow3(){
+	playing3 = false;
+	clearInterval(slideInterval3);
+}
+
+function playSlideshow3(){
+	playing3 = true;
+	slideInterval3 = setInterval(nextSlide3,500);
+}
+
+pauseButton3.onclick = function(){
+	if(playing3){ pauseSlideshow3(); }
+	else{ playSlideshow3(); }
+};</script>
+
+
+</body>
+</html

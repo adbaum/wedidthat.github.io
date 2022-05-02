@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://wedidthat.design/sitemap.xml
+Sitemap: http://coconft.com/sitemap.xml
